@@ -8,7 +8,7 @@ import Contact from './Components/Contact'
 
 const App = () => {
   return (
-    <div className='bg-[#1c1c1c] w-full min-h-[100vh]'>
+    <div className='bg-[#1c1c1c] w-full min-h-[100vh] max-w-full'>
       <NavBar/>  
       <Header/>
       <About/>
