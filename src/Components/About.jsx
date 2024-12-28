@@ -9,7 +9,7 @@ const About = () => {
           About me
         </h1>
       </div>
-      <div className="relative flex items-start justify-center sm:mt-[-25vh] mt-[-1vh]">
+      <div className="relative flex items-start justify-start sm:mt-[-25vh] mt-[-1vh]">
         <img className="opacity-[0.3] max-w-full h-auto" src={assets.bg_shape_bubble} alt="" />
       </div>
       <div className="sm:flex sm:mt-[-25vh] mt-[-35vh]">
