@@ -47,7 +47,7 @@ const Contact = () => {
                         Our mission is to satisfy your cravings and  elevate your dinning exprerience.</p>
                 </div>
             </div>
-            <div className='flex w-[500px] items-start sm:ml-[-10vh] ml-[-15vh] sm:mt-[-50vh] mt-[-45vh]'>
+            <div className='flex w-[395px] items-start sm:ml-[-10vh] ml-[-15vh] sm:mt-[-50vh] mt-[-45vh]'>
                 <img className='opacity-[0.3] sm:w-full w-[50vh]' src={assets.bg_shape_bubble} alt="" />
             </div>
             <div className='flex sm:flex-row flex-col w-full sm:px-10 px-1'>
