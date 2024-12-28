@@ -13,7 +13,7 @@ const About = () => {
         <img className="opacity-[0.3] max-w-full h-auto" src={assets.bg_shape_bubble} alt="" />
       </div>
       <div className="sm:flex sm:mt-[-25vh] mt-[-35vh]">
-        <div className="sm:w-1/3 w-full sm:pl-10 p-10 flex items-center justify-center">
+        <div className="sm:w-1/3 w-full sm:pl-10 p-10 flex items-center justify-center sm:mt-0 mt-[-5vh]">
           <img
             className="rounded-xl sm:h-[40vh] h-[30vh] relative z-10 shadow-md max-w-full"
             src={assets.about_img}
