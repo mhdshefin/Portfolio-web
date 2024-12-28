@@ -26,7 +26,7 @@ const NavBar = () => {
     }, [])
 
     return (
-        <div className={`w-full h-14 sm:h-20 fixed top-0 left-0 z-40 transition-all duration-700 ${scrolled ? 'bg-[#0b0b0be7]' : 'bg-transparent'}`}>
+        <div className={`w-full h-14 sm:h-20 fixed top-0 left-0 z-40 transition-all overflow-x-hidden duration-700 ${scrolled ? 'bg-[#0b0b0be7]' : 'bg-transparent'}`}>
             <div className='px-5 sm:px-10 md:px-14 flex justify-between'>
                 <div className='flex justify-center items-center text-2xl pl-[15px] sm:pl-0 sm:text-4xl font-bold '>
                     <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]'>Shefin.</h1>
