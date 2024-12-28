@@ -4,7 +4,7 @@ import assets from '../assets/assets'
 const Header = () => {
 
     return (
-        <div id='header' className={`w-full flex flex-col-reverse sm:flex sm:flex-row sm:pt-24 px-[10%] h-[90vh] pt-[100vh]`}>
+        <div id='header' className={`w-full flex flex-col-reverse sm:flex sm:flex-row sm:pt-24 px-[10%] h-[90vh] pt-[110vh]`}>
             <div className='flex flex-col sm:w-[50%] w-full items-center mt-10 sm:mt-0 sm:items-start justify-center'>
                 <div className='flex flex-col'>
                     <h1 className='font-bold text-white text-3xl sm:text-4xl'>Hi, my name is</h1>
