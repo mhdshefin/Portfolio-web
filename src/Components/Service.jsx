@@ -3,9 +3,9 @@ import assets from '../assets/assets'
 
 const Service = () => {
     return (
-        <div id='service' className='w-full flex flex-col sm:mt-16 mt-0 pt-20'>
+        <div id='service' className='w-full flex flex-col sm:mt-16 mt-[-8vh] pt-20'>
             <div className='flex items-center justify-center text-white '>
-                <h1 className='font-bold text-5xl transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]'>My services</h1>
+                <h1 className='font-bold sm:text-5xl text-4xl transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]'>My services</h1>
             </div>
             <div className='w-full text-gray-400 text-sm flex items-center justify-center mt-8'>
                 <div className='max-w-[60%]'>
@@ -17,7 +17,7 @@ const Service = () => {
                 <div className='w-full flex items-end justify-end mt-[-35vh]'>
                     <img className='rotate-180 sm:w-[40vh] w-[25vh] opacity-[.3]' src={assets.bg_shape} alt="" />
                 </div>
-                <div className='flex sm:flex-row flex-col lg:px-30 px-10 justify-between w-full mt-[-2vh] sm:mt-[-10vh] text-white gap-20'>
+                <div className='flex sm:flex-row flex-col lg:px-30 px-10 justify-between w-full mt-[-2vh] sm:mt-[-10vh] text-white sm:gap-20 gap-14'>
                     <div className='flex flex-col items-center gap-6 sm:max-w-[40%] text-justify'>
                         <img className='sm:w-80 w-64  invert hover:invert-0 contrast-0 brightness-200 hover:brightness-100 hover:contrast-100 transition-all duration-500 lg:h-[40vh] sm:h-[30vh] h-[35vh]' src={assets.ui} alt="" />
                         <p className='font-semibold text-xl sm:text-3xl transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]'>User Interface Design</p>

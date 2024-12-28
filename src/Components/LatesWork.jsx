@@ -7,7 +7,7 @@ const LatesWork = () => {
 
     return (
         <div className='w-full flex flex-col'>
-            <div className='flex items-center justify-center text-5xl text-white sm:mt-[-40vh] mt-[-30vh] z-10'>
+            <div className='flex items-center justify-center sm:text-5xl text-4xl text-white sm:mt-[-40vh] mt-[-30vh] z-10'>
                 <h1 className=' font-bold transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]'>My latest works</h1>
             </div>
             <div className='w-full text-gray-400 text-sm flex items-center justify-center mt-8'>
