@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                 </form>
                 <div className='flex items-center justify-center mt-10 sm:mt-0 '>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7822.571210373338!2d76.30224829056304!3d11.386790305205961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1735310118374!5m2!1sen!2sin" width={windowSize > 450 ? "600" : "350"} height="330" style={{ border: 0 }} className='rounded-xl' allowFullScreen loading referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7822.571210373338!2d76.30224829056304!3d11.386790305205961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sin!4v1735310118374!5m2!1sen!2sin" width={windowSize > 450 ? "600" : "300"} height="330" style={{ border: 0 }} className='rounded-xl' allowFullScreen loading referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <hr className='w-full mt-10' />

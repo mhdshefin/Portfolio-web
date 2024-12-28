@@ -3,7 +3,7 @@ import NavBar from './Components/NavBar'
 import Header from './Components/Header'
 import About from './Components/About'
 import Service from './Components/Service'
-import LatesWork from './Components/LatesWork'
+import LatesWork from './Components/LatesWork' 
 import Contact from './Components/Contact'
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
       <About/>
       <Service/>
       <LatesWork/>
-      <Contact/>
+      <Contact/> 
     </div>
   )
 }

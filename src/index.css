@@ -6,6 +6,7 @@
 
 body{
   font-family: Outfit;
+  overflow-x: hidden;
 }
 
 @layer utilities {
