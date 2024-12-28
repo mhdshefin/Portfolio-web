@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className={`flex flex-col sm:w-[50%] w-full items-center justify-center sm:mt-0 mt-10`}>
+            <div className={`flex flex-col sm:w-[50%] w-full items-center justify-center`}>
                 <img className='sm:w-[80vh] w-[35vh]' src={assets.header_img} alt="" />
             </div>
         </div>
