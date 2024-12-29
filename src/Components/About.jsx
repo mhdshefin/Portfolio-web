@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div id="about" className="w-full sm:mt-20 mt-5 sm:pt-24 pt-24 overflow-x-hidden">
       <div className="flex items-center justify-center text-white">
-        <h1 className="font-bold text-4xl sm:text-5xl transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]">
+        <h1 className="font-bold text-4xl sm:text-5xl z-10 transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]">
           About me
         </h1>
       </div>
-      <div className="relative flex items-start justify-start sm:mt-[-25vh] mt-[-1vh]">
-        <img className="opacity-[0.3] max-w-full h-auto" src={assets.bg_shape_bubble} alt="" />
+      <div className="relative flex justify-start sm:mt-[-25vh] mt-[-1vh]">
+        <img className="opacity-[0.3] h-auto" src={assets.bg_shape_bubble} alt="" />
       </div>
       <div className="sm:flex sm:mt-[-25vh] mt-[-35vh]">
         <div className="sm:w-1/3 w-full sm:pl-10 p-10 flex items-center justify-center sm:mt-0 mt-[-5vh]">

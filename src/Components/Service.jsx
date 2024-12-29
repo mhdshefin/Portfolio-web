@@ -5,7 +5,7 @@ const Service = () => {
     return (
         <div id='service' className='w-full flex flex-col sm:mt-16 mt-[-8vh] pt-20'>
             <div className='flex items-center justify-center text-white '>
-                <h1 className='font-bold sm:text-5xl text-4xl transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]'>My services</h1>
+                <h1 className='font-bold sm:text-5xl text-4xl z-0 transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#cd0383] to-[#7729ff]'>My services</h1>
             </div>
             <div className='w-full text-gray-400 text-sm flex items-center justify-center mt-8'>
                 <div className='max-w-[60%]'>
