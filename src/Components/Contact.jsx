@@ -47,7 +47,7 @@ const Contact = () => {
                         Our mission is to satisfy your cravings and  elevate your dinning exprerience.</p>
                 </div>
             </div>
-            <div className='flex w-[395px] items-start sm:ml-[-10vh] ml-[-15vh] sm:mt-[-50vh] mt-[-45vh]'>
+            <div className='flex w-[395px] items-start sm:ml-[-10vh] ml-[-15vh] sm:mt-[-40vh] mt-[-45vh]'>
                 <img className='opacity-[0.3] sm:w-full w-[50vh]' src={assets.bg_shape_bubble} alt="" />
             </div>
             <div className='flex sm:flex-row flex-col w-full sm:px-10 px-1'>
@@ -68,17 +68,17 @@ const Contact = () => {
             </div>
             <hr className='w-full mt-8 border-[#3c3c3c]' />
             <div className='flex justify-between w-full sm:px-[15vh] px-2 mt-6'>
-                <div className='flex flex-col gap-2 text-white items-center justify-center text-[8px] sm:text-xl'>
+                <div className='flex flex-col gap-2 text-white items-center justify-center text-[8px] sm:text-[15px]'>
                     <img className='w-[25px] sm:w-[60px] invert hover:invert-0 contrast-0 brightness-200 hover:brightness-100 hover:contrast-100 transition-all duration-500' src={assets.location} alt="" />
                     <p>House#4 Road#7 Block#H</p>
                     <p className='mt-[-8px]'>PALEMAD,KERALA,-123456</p>
                 </div>
-                <div className='flex flex-col gap-2 text-white items-center justify-center text-[8px] sm:text-xl'>
+                <div className='flex flex-col gap-2 text-white items-center justify-center text-[8px] sm:text-[15px]'>
                     <img className='w-[25px] sm:w-[60px] invert hover:invert-0 contrast-0 brightness-200 hover:brightness-100 hover:contrast-100 transition-all duration-500' src={assets.world} alt="" />
                     <p>muhammedshefin@gmail.com</p>
                     <p className='mt-[-8px]'>www.shefin.com</p>
                 </div>
-                <div className='flex flex-col gap-2 text-white items-center justify-center text-[8px] sm:text-xl'>
+                <div className='flex flex-col gap-2 text-white items-center justify-center text-[8px] sm:text-[15px]'>
                     <img className='w-[25px] sm:w-[60px] invert hover:invert-0 contrast-0 brightness-200 hover:brightness-100 hover:contrast-100 transition-all duration-500' src={assets.phone} alt="" />
                     <p>+91 1234567890</p>
                     <p className='mt-[-8px]'>+91 1234567890</p>
