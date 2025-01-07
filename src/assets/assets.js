@@ -14,6 +14,7 @@ import search_icon from './search_icon.png'
 import location from './location.png'
 import phone from './phone.png'
 import world from './world.png'
+import view from './view.png'
 
 
 const assets = {
@@ -23,6 +24,7 @@ const assets = {
     header_img,
     bg_shape,
     bg_shape_bubble,
+    view,
     about_img,
     art,
     web,
