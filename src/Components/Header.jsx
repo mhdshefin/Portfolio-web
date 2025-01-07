@@ -43,7 +43,7 @@ const Header = ({ mode }) => {
             whileInView={{scale:1}}
             transition={{duration:1}}
             className={`flex flex-col sm:w-[50%] w-full items-center justify-center`}>
-                <img className='sm:w-[80vh] w-[35vh]' src={assets.header_img} alt="" />
+                <img className='sm:w-[65vh] w-[35vh]' src={assets.header_img} alt="" />
             </motion.div>
         </div>
     )
