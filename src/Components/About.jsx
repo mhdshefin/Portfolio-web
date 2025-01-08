@@ -18,7 +18,7 @@ const About = ({ mode }) => {
           transition={{ duration: 0.8, delay: .2 }}
           className="sm:w-1/3 w-full sm:pl-10 p-10 flex items-center justify-center sm:mt-0 mt-[-5vh]">
           <img
-            className="rounded-xl sm:h-[50vh] h-[30vh] relative z-10 max-w-full sm:mt-[-5vh] mt-[-6vh]"
+            className="rounded-xl sm:h-[50vh] h-[35vh] relative z-10 max-w-full sm:mt-[-5vh] mt-[-6vh]"
             src={assets.about_img}
             alt=""
           />
